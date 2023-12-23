@@ -91,6 +91,12 @@
 .container .text_feilds .box .write_wrapper .menu {
   width: 100%;
   margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .text_feilds .box .write_wrapper .menu span {
+  text-align: right;
 }
 
 .container nav ul {
